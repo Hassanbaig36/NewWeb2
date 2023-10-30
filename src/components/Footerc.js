@@ -127,16 +127,7 @@ const Footerc = () => {
       <footer>
       <FooterSeven1/>
       
-        <div className="con1">
-          <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/blog">Blog</a>
-            <a href="/portfolio">Portfolio</a>
-            <a href="/contact">Contact</a>
-            <div className="animation start-home" />
-          </nav>
-        </div>
+  
       </footer>
       <style jsx>{`
      @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
