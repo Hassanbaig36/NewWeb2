@@ -12,7 +12,7 @@ import { graphicDesigning } from "@/data/sidebarPageContainer";
 const { navItems, } = headerData;
 
 function Graphic() {
-    const { logo11 } = headerData;
+    const { logo7 } = headerData;
     useEffect(() => {
         const paperMenu = {
             $window: document.querySelector('#paper-window'),
@@ -93,7 +93,7 @@ function Graphic() {
                 <div id="paper-front">
                     <Link href="/" className='nav-logoa' passHref>
 
-                    <Image className="nav-logo1" src={logo11.src} alt="" />
+                    <Image className="nav-logo1" src={logo7.src} alt="" />
 
                     </Link>
                     <div className="hamburger">
