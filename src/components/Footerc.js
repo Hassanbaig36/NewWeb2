@@ -170,7 +170,13 @@ const Footerc = () => {
        display: flex;
        justify-content: space-between;
      }
-     
+     .con {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
      
      
   
