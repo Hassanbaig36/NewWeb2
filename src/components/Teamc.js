@@ -10,10 +10,10 @@ import TeamPage from "@/components/TeamSection/TeamPage";
 
 
 
-const { navItems, } = headerData;
+const { navItems,  logo7 } = headerData;
 
 function Teamc() {
-    const { logo11 } = headerData; 
+    const { logo7 } = headerData; 
     useEffect(() => {
         const paperMenu = {
             $window: document.querySelector('#paper-window'),
@@ -94,7 +94,7 @@ function Teamc() {
                 <div id="paper-front">
                     <Link href="/" className='nav-logoa' passHref>
 
-                    <Image className="nav-logo1" src={logo11.src} alt="" />
+                    <Image className="nav-logo1" src={logo7.src} alt="" />
 
                     </Link>
                     <div className="hamburger">
