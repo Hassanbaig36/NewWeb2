@@ -24278,7 +24278,7 @@ body::-webkit-scrollbar-thumb {
  
 .side-menu__block-inner::-webkit-scrollbar-thumb {
   
-  background: Var(--color-bg);
+  background: #fff;
   outline: 1px solid slategrey;
 }
 
