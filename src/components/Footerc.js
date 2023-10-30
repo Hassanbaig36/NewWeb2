@@ -597,7 +597,7 @@ h1 {
     place-items: center;
     overflow-x: hidden;
     padding: 5px;
-}
+} 
 }
 
 
