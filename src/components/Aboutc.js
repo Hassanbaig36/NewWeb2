@@ -18,7 +18,7 @@ import AboutSix from './AboutSection/AboutSix';
 import AboutSix2 from './AboutSection/AboutSix2';
 
 
-const { navItems, } = headerData;
+const { navItems, logo7 } = headerData;
 
 function Aboutc() {
     const { logo7 } = headerData;
@@ -101,7 +101,7 @@ function Aboutc() {
             <div id="paper-window">
                 <div id="paper-front">
                     <Link href="/" className='nav-logoa' passHref>
-                    <Image className="nav-logo1" src={logo.src} alt="" />
+                    <Image className="nav-logo1" src={logo7.src} alt="" />
 
                     </Link>
                     <div className="hamburger">
