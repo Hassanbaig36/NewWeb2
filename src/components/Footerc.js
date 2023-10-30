@@ -585,6 +585,19 @@ h1 {
   .card-2 {
     min-height: 100vh;
   }
+  footer.jsx-30ec620f55a1ae2 {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    display: grid;
+    place-items: center;
+    overflow-x: hidden;
+    padding: 5px;
+}
 }
 
 
