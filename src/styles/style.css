@@ -24267,7 +24267,7 @@ body::-webkit-scrollbar-track {
 }
  
 body::-webkit-scrollbar-thumb {
-  background:   background: #fff;
+ background: #fff;
   outline: 1px solid slategrey;
 }
 .side-menu__block-inner::-webkit-scrollbar {
