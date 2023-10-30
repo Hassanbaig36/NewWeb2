@@ -75,52 +75,7 @@ const Footerc = () => {
             <button>Dismiss message</button>
           </div>
 
-          <div className="social-container">
-            <ul className="social-icons">
-              <li>
-                <a href="#">
-                  <i className="fa fa-instagram" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-linkedin" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-codepen" />
-                </a>
-              </li>
-            </ul>
-            <ul className="social-icons">
-              <li>
-                <a href="#" className="social-square">
-                  <i className="fa fa-facebook" />
-                </a>
-              </li>
-              <li>
-                <a href="#" className="social-square">
-                  <i className="fa fa-dribbble" />
-                </a>
-              </li>
-              <li>
-                <a href="#" className="social-square">
-                  <i className="fa fa-github" />
-                </a>
-              </li>
-              <li>
-                <a href="#" className="social-square">
-                  <i className="fa fa-stack-overflow" />
-                </a>
-              </li>
-            </ul>
-          </div>
+        
         </div>
       </main>
 
@@ -218,169 +173,7 @@ const Footerc = () => {
      
      
      
-     
-     .social-container {
-       width: 400px;
-       margin: 0vh auto;
-       text-align: center;
-     }
-     
-     .social-icons {
-       padding: 0;
-       list-style: none;
-       margin: 1em;
-     }
-     
-     .social-icons li {
-       display: inline-block;
-       margin: 0.15em;
-       position: relative;
-       font-size: 1.2em;
-     }
-     
-     .social-icons i {
-       color: #fff;
-       position: absolute;
-       top: 21px;
-       left: 21px;
-       transition: all 265ms ease-out;
-     }
-     
-     .social-icons a {
-       display: inline-block;
-     }
-     
-     .social-icons a:before {
-       transform: scale(1);
-       -ms-transform: scale(1);
-       -webkit-transform: scale(1);
-       content: " ";
-       width: 60px;
-       height: 60px;
-       border-radius: 100%;
-       display: block;
-       background: linear-gradient(45deg, #ff003c, #c648c8);
-       transition: all 265ms ease-out;
-     }
-     
-     .social-icons a:hover:before {
-       transform: scale(0);
-       transition: all 265ms ease-in;
-     }
-     
-     .social-icons a:hover i {
-       transform: scale(2.2);
-       -ms-transform: scale(2.2);
-       -webkit-transform: scale(2.2);
-       color: #ff003c;
-       background: -webkit-linear-gradient(45deg, #ff003c, #c648c8);
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-       transition: all 265ms ease-in;
-     }
-     
-     .social-icons a.social-square:before {
-       background: linear-gradient(45deg, #7b00e0, #ae31d9);
-       border-radius: 10%;
-     }
-     
-     .social-icons a.social-square:hover:before {
-       transform: rotate(-180deg);
-       -ms-transform: rotate(-180deg);
-       -webkit-transform: scale(-180deg);
-       border-radius: 100%;
-     }
-     
-     .social-icons a.social-square:hover i {
-       transform: scale(1.6);
-       -ms-transform: scale(1.6);
-       -webkit-transform: scale(1.6);
-       color: #fff;
-       transform: scale(1.6);
-       -webkit-text-fill-color: #fff;
-     }
-     
-     nav {
-       position: relative;
-       margin: 20px;
-       width: 590px;
-       height: 50px;
-       background: #201e28;
-       border-radius: 8px;
-       font-size: 0;
-       box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
-     }
-     
-     nav a {
-       font-size: 15px;
-       text-transform: uppercase;
-       color: white;
-       text-decoration: none;
-       line-height: 50px;
-       position: relative;
-       z-index: 1;
-       display: inline-block;
-       text-align: center;
-     }
-     
-     nav .animation {
-       position: absolute;
-       height: 100%;
-       /* height: 5px; */
-       top: 0;
-       /* bottom: 0; */
-       z-index: 0;
-       background: #a9278f;
-       border-radius: 8px;
-       transition: all .5s ease 0s;
-     }
-     
-     nav a:nth-child(1) {
-       width: 100px;
-     }
-     
-     nav .start-home,
-     a:nth-child(1):hover~.animation {
-       width: 100px;
-       left: 0;
-     }
-     
-     nav a:nth-child(2) {
-       width: 110px;
-     }
-     
-     nav a:nth-child(2):hover~.animation {
-       width: 110px;
-       left: 100px;
-     }
-     
-     nav a:nth-child(3) {
-       width: 100px;
-     }
-     
-     nav a:nth-child(3):hover~.animation {
-       width: 100px;
-       left: 210px;
-     }
-     
-     nav a:nth-child(4) {
-       width: 160px;
-     }
-     
-     nav a:nth-child(4):hover~.animation {
-       width: 160px;
-       left: 310px;
-     }
-     
-     nav a:nth-child(5) {
-       width: 120px;
-     }
-     
-     nav a:nth-child(5):hover~.animation {
-       width: 120px;
-       left: 470px;
-     }
-     
+  
      
      .h1 {
        font-family: sans-serif;
@@ -423,13 +216,7 @@ const Footerc = () => {
 
 
 
-.con {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  flex-direction: column;
-}
+
 
 .card {
   display: flex;
@@ -576,7 +363,7 @@ h1 {
   .card-2 {
     min-height: 100vh;
   }
-  footer.jsx-30ec620f55a1ae2 {
+  footer {
     position: -webkit-sticky;
     position: sticky;
     bottom: 0;
