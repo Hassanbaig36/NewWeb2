@@ -14,7 +14,7 @@ function CONTACTc() {
     const { logo7} = headerData;
     useEffect(() => {
         const paperMenu = {
-            $window: document.querySelector('#paper-window'),
+            $window: document.querySelector('#paper-window'), 
             $paperFront: document.querySelector('#paper-front'),
             $hamburger: document.querySelector('.hamburger'),
             offset: 1800,
