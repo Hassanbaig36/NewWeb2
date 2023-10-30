@@ -12,7 +12,7 @@ import CallToSection from './CallToSection/CallToSection';
 import Footerc from "./Footerc";
 
 
-const { navItems, } = headerData;
+const { navItems, logo7  } = headerData;
 
 function Hiw() {
     const { logo7 } = headerData;
