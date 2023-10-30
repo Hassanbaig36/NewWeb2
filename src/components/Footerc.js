@@ -53,7 +53,7 @@ const Footerc = () => {
                 <label htmlFor="email">Email address</label>
                 <input
                   type="email"
-                  id="email"
+                  id="email" 
                   placeholder="  email@company.com"
                 />
                 <button type="submit">Subscribe to Monthly Newsletter</button>
