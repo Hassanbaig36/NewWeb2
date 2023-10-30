@@ -44,7 +44,7 @@ const MagnificPopup = () => {
                 patterns: {
                   youtube: {
                     index: 'youtube.com/',
-                    id: 'v=',
+                    id: 'v=1',
                     src: 'https://www.youtube.com/embed/Y4UwssndcPA',
                   },
                 },
