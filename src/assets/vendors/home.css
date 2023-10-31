@@ -149,6 +149,7 @@
 }
 #paper-window::-webkit-scrollbar {
     width: 0.5em;
+	 background-color: #fff;
   }
    
   #paper-window::-webkit-scrollbar-track {
