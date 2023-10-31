@@ -1416,3 +1416,21 @@
     display: flex;
   }
 }
+@media only screen and (max-width: 768px) {
+.nav-logo1 {
+    width: 250px;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 1rem;
+}
+  
+}
+@media only screen and (max-width: 320px) {
+.nav-logo1 {
+    width: 190px;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 1.5rem;
+}
+  
+}
