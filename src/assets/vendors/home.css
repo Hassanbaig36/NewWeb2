@@ -152,13 +152,12 @@
 	 background-color: #fff;
   }
    
-  #paper-window::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  }
-   
+
+
   #paper-window::-webkit-scrollbar-thumb {
     background-color: #fff;
-    outline: 1px solid slategrey;
+    
+	  
   }
   
 .main-menu .navigation>li:nth-child(4) {
